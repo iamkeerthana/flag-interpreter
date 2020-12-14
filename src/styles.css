@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: large;
+}
+:root {
+  --green: #54e346;
+  --orange: #fa7d09;
+  --blue: #002664;
+  --red: #bf0a30;
+}
+body {
+  background-color: black;
+  border: 2px solid var(--blue);
+}
+input {
+  padding: 1rem;
+  border: 2px solid var(--red);
+  margin: 0.5rem;
+  width: 70%;
+  height: 10px;
+}
+h1 {
+  color: var(--orange);
+}
+h2 {
+  color: var(--orange);
+}
+span1 {
+  color: white;
+}
+span2 {
+  color: var(--green);
+}
+span {
+  color: var(--green);
+}
+h3 {
+  font-size: x-large;
+  margin: 1rem;
+  color: var(--red);
+}
